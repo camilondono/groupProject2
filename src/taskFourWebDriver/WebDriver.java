@@ -18,6 +18,7 @@ interface RemoteWebDriver extends WebDriver, TakesScreenshot {
 class ChromeDriver implements RemoteWebDriver {
     public void navigate() {
         System.out.println("navigate() in class ChromeDriver");
+
     }
 
     public void open() {
