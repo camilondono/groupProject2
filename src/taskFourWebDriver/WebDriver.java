@@ -17,70 +17,70 @@ interface RemoteWebDriver extends WebDriver, TakesScreenshot {
 
 class ChromeDriver implements RemoteWebDriver {
     public void navigate() {
-        System.out.println("Running function : navigate() in class ChromeDriver");
+        System.out.println("navigate() in class ChromeDriver");
     }
 
     public void open() {
-        System.out.println("Running function : open() in class ChromeDriver");
+        System.out.println("open() in class ChromeDriver");
     }
 
     public void close() {
-        System.out.println("Running function : close() in class ChromeDriver");
+        System.out.println("close() in class ChromeDriver");
     }
 
     public String getTitle() {
-        System.out.println("Running function : getTitle() in class ChromeDriver");
+        System.out.println("getTitle() in class ChromeDriver");
         return "";
     }
 
     public void getScreenshot() {
-        System.out.println("Running function : getScreenshot() in class ChromeDriver");
+        System.out.println("getScreenshot() in class ChromeDriver");
     }
 }
 
 class FirefoxDriver implements RemoteWebDriver {
     public void navigate() {
-        System.out.println("Running function : navigate() in class FirefoxDriver");
+        System.out.println("navigate() in class FirefoxDriver");
     }
 
     public void open() {
-        System.out.println("Running function : open() in class FirefoxDriver");
+        System.out.println("open() in class FirefoxDriver");
     }
 
     public void close() {
-        System.out.println("Running function : close() in class FirefoxDriver");
+        System.out.println("close() in class FirefoxDriver");
     }
 
     public String getTitle() {
-        System.out.println("Running function : getTitle() in class FirefoxDriver");
+        System.out.println("getTitle() in class FirefoxDriver");
         return "";
     }
 
     public void getScreenshot() {
-        System.out.println("Running function : getScreenshot() in class FirefoxDriver");
+        System.out.println("getScreenshot() in class FirefoxDriver");
     }
 }
 
 class safariDriver implements RemoteWebDriver {
     public void navigate() {
-        System.out.println("Running function : navigate() in class safariDriver");
+        System.out.println("navigate() in class safariDriver");
     }
 
     public void open() {
-        System.out.println("Running function : open() in class safariDriver");
+        System.out.println("open() in class safariDriver");
     }
 
     public void close() {
-        System.out.println("Running function : close() in class safariDriver");
+        System.out.println("close() in class safariDriver");
     }
 
     public String getTitle() {
-        System.out.println("Running function : getTitle() in class safariDriver");
+        System.out.println("getTitle() in class safariDriver");
         return "";
     }
 
     public void getScreenshot() {
-        System.out.println("Running function : getScreenshot() in class safariDriver");
+        System.out.println("getScreenshot() in class safariDriver");
     }
 }
 
